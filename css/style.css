@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-size: 16pt; 
-  background-image: url(imgs/concrete_seamless.png);
+  background-image: url(images/concrete_seamless.png);
   font-family: "Raleway", sans-serif;
 }
 
@@ -16,6 +16,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /*Requirement 3*/
@@ -23,7 +24,6 @@ header{
   /*Your code here again.*/
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 
@@ -86,7 +86,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-duration: 15s;
-   animation-iteration-count: initial;
+   animation-iteration-count: 1;
    animation-name: logo_grow;
 }
 
